@@ -1,0 +1,65 @@
+body {
+  background-image: url(bc.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 375px;
+  background-position-x: -10px;
+}
+.h1a {
+  position: absolute;
+  margin-top: 17vh;
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  font-family: sans-serif;
+  color: grey;
+  opacity: 0.5;
+}
+
+.h1b {
+  position: absolute;
+  margin-top: 22vh;
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  font-family: sans-serif;
+  color: grey;
+  opacity: 0.5;
+}
+
+.h1c {
+  position: absolute;
+  margin-top: 27vh;
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  font-family: sans-serif;
+  color: grey;
+  opacity: 0.5;
+}
+
+canvas {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+}
+
+#bottoneCompleanno {
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+  background: -webkit-linear-gradient(top, #00adee, #0078a5);
+  background: -moz-linear-gradient(top, #00adee, #0078a5);
+  background: -ms-linear-gradient(top, #00adee, #0078a5);
+  background: -o-linear-gradient(top, #00adee, #0078a5);
+  transition: 0.7s;
+  position: absolute;
+  margin-top: 50vh;
+  margin-left: 5px;
+  width: 350px;
+  height: 70px;
+}
+
+#bottoneCompleanno:hover {
+  background: #0078a5;
+}
